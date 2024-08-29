@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@300;400;600;700&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: white;
+    list-style: none;
+    text-decoration-line: none;
+    font-family: 'Poppins', sans-serif !important;
+}
+.nav{
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    width: 100%;
+}
+.nav :hover{
+    color: #efdd20;
+}
+.navleft{
+    margin-left: 5%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+.logo {
+    text-align: center;
+    display: flex;
+}
+.logo img{
+    width: 32px;
+    height: 32px;
+    margin-left: 10px;
+}
+.logo a {
+    padding-top: 3%;
+}
+.navright{
+    margin-right: 5%;
+    align-items: center;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.navright >li:nth-child(2){
+  width: 100px;
+  height: 30px;
+  background-color: #efdd20;
+  align-items: center;
+  text-align: center;
+  padding-top: 1%;
+  border-radius: 50px;
+}
+
+.navright >li:nth-child(2) a{
+  background-color: #efdd20;
+  color: black;
+}
+.navright >li:nth-child(3){
+  width: 100px;
+  height: 30px;
+  background-color: #656565;
+  align-items: center;
+  text-align: center;
+  padding-top: 1%;
+  border-radius: 50px;
+}
+.navright >li:nth-child(3) a{
+  background-color: #656565;
+  color: white;
+}
+.name{
+    margin-left: 2%;
+    margin-top: 3%;
+    display: flex;
+}
+.pic h1{
+    font-size: 100px;
+}
+.pic img {
+    width: 400px;
+    height: 400px;
+    border-radius: 500px;
+}
+.pic{
+    align-items: center;
+    display: flex;
+    margin-right: 10%;
+    margin-left: 30%;
+    margin-top: 7%;
+}
+.box {
+    margin-left: 5%;
+}
+.icon {
+    margin-top: 0;
+    margin-left: 55%;
+    justify-items: center;
+    display: flex;
+}
+.face {
+    height: 40px;
+    width: 40px;
+}
+.ig {
+    margin-left: 20px;
+    height: 45px;
+    width: 45px;
+}
+footer {
+    margin-top: 150px;
+    text-align: center;
+}
